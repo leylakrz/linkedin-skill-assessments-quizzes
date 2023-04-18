@@ -192,10 +192,10 @@ name = models.CharField(max_length=100)
 
 #### Q20. You want to create a page that allows editing of two classes connected by a foreign key (e.g., a question and answer that reside in separate tables). What Django feature can you use?
 
-- [x] actions
+- [ ] actions
 - [ ] admin
 - [ ] mezcal
-- [ ] inlines
+- [x] inlines
 
 #### Q21. Why are QuerySets considered "lazy"?
 
@@ -484,10 +484,10 @@ model=Planet
 
 {{"live long and prosper"|truncate:3}}
 
-- [x] live long and ...
+- [ ] live long and ...
 - [ ] live long and
 - [ ] a compilation error
-- [ ] liv
+- [x] liv
 
 #### Q50. When does this code load data into memory?
 
@@ -498,9 +498,9 @@ model=Planet
 ```
 
 - [ ] line 1
-- [x] It depends on how many results return by query.
+- [ ] It depends on how many results return by query.
 - [ ] It depends on cache.
-- [ ] line 2
+- [x] line 2
 
 #### Q51. You are building a web application using a React front end and a Django back end. For what will you need to provision?\*\*
 
@@ -532,8 +532,8 @@ model=Planet
 
 #### Q55. What is WSGI?
 
-- [x] a server
-- [ ] an interface specification
+- [ ] a server
+- [x] an interface specification
 - [ ] a Python module
 - [ ] a framework
 
@@ -546,8 +546,8 @@ model=Planet
 
 #### Q57. Which statement is most accurate, regarding using the default SQLite database on your local/development machine but Postgres in production
 
-- [x] There's less chance of introducing bugs since SQLite already works out the box
-- [ ] It's fine, you just need to keep both instances synchronized
+- [ ] There's less chance of introducing bugs since SQLite already works out the box
+- [x] It's fine, you just need to keep both instances synchronized
 - [ ] It's a bad idea and could lead to issues down the road
 - [ ] It's the most efficient way to build a project
 
@@ -653,9 +653,9 @@ model=Planet
 
 #### Q71. If you left the 8080 off the command python manage.py runserver 8080 what port would Django use as default?
 
-- [x] 8080
+- [ ] 8080
 - [ ] 80
-- [ ] 8000
+- [x] 8000
 - [ ] It would fail to start
 
 #### Q72. Which statement about Django apps is false?
